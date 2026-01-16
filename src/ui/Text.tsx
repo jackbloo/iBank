@@ -1,9 +1,9 @@
-import { Text, TextProps } from 'react-native';
+import { Text as AppText, TextProps } from 'react-native';
 import { Fonts } from '../theme/fonts';
 
-export default function AppText(props: TextProps) {
+export function Text(props: TextProps) {
   return (
-    <Text
+    <AppText
       style={[{ fontFamily: Fonts.regular}, props.style]}
       {...props}
     />
