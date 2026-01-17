@@ -54,9 +54,11 @@ Users should be able to **share the transfer detail page externally** to their c
 
 > Example UI (Financing & Transaction Detail screens)
 
-![List Preview](./screenshots/list-preview.png)
-![Detail Preview](./screenshots/detail-preview.png)
-![Flow Preview](./screenshots/flow-preview.gif)
+<div style="display:flex; gap:16px;">
+  <img src="./screenshots/list-preview.png" width="250" />
+  <img src="./screenshots/detail-preview.png" width="250" />
+  <img src="./screenshots/flow-preview.gif" width="250" />
+</div>
 
 
 ### 🚀 Getting Started
