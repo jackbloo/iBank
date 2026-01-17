@@ -54,14 +54,19 @@ Users should be able to **share the transfer detail page externally** to their c
 
 > Example UI (Financing & Transaction Detail screens)
 
-![App Preview](./screenshots/UI.png)
+![List Preview](./screenshots/list-preview.png)
+![Detail Preview](./screenshots/detail-preview.png)
+![Flow Preview](./screenshots/flow-preview.gif)
 
-🚀 Getting Started
+
+### 🚀 Getting Started
+
 1️⃣ Prerequisites
 
 Make sure the following are installed:
 
-Node.js (>= 18)
+```bash
+Node.js (>= 20)
 
 npm or yarn
 
@@ -70,9 +75,11 @@ React Native CLI
 Android Studio (Android)
 
 Xcode + CocoaPods (iOS)
+```
 
 📖 React Native environment setup guide:
 https://reactnative.dev/docs/environment-setup
+
 
 2️⃣ Install Dependencies
 ```bash
@@ -83,20 +90,22 @@ yarn install
 
 3️⃣ iOS Setup (macOS only)
 ```bash
+npx rnvi-update-plist package.json ios/AppName/Info.plist (for icons)
 cd ios
 pod install
 cd ..
 ```
 
 4️⃣ Run the App
+
 ▶ Android
 ```bash
-npx react-native run-android
+npm run android
 ```
 
 ▶ iOS
 ```bash
-npx react-native run-ios
+npm run ios
 ```
 
 🧪 Running Tests
