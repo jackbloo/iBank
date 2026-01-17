@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileScreen matches snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#F0F0F0",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "padding": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "flex-end",
+          "width": 40,
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "color": "#000",
+          "flex": 1,
+          "fontSize": 16,
+          "fontWeight": "600",
+          "textAlign": "center",
+        }
+      }
+    >
+      User Profile
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "flex-end",
+          "width": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 18,
+            "opacity": 0.4,
+          }
+        }
+      >
+        ⚙️
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingBottom": 40,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#F4F4F4",
+          "borderColor": "rgba(0,0,0,0.05)",
+          "borderRadius": 48,
+          "borderWidth": 1,
+          "height": 96,
+          "justifyContent": "center",
+          "marginBottom": 16,
+          "width": 96,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 40,
+            "opacity": 0.2,
+          }
+        }
+      >
+        👤
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "fontSize": 20,
+          "fontWeight": "600",
+          "marginBottom": 4,
+        }
+      }
+    >
+      John Doe
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 13,
+          "marginBottom": 32,
+          "opacity": 0.4,
+        }
+      }
+    >
+      Version 1.0.0
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "rgba(0,0,0,0.1)",
+          "borderRadius": 24,
+          "borderWidth": 1,
+          "height": 48,
+          "justifyContent": "center",
+          "minWidth": 200,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 14,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Logout
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

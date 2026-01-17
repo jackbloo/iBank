@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FinancingScreen matches snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#F2F4F5",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "padding": 24,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          {
+            "color": "#6C727A",
+            "fontSize": 10,
+            "fontWeight": "700",
+            "letterSpacing": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Good morning
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1A1C1E",
+            "fontSize": 24,
+            "fontWeight": "800",
+          }
+        }
+      >
+        Financing
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "gap": 12,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E5E7EB",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "width": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 18,
+            }
+          }
+        >
+          🔍
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E5E7EB",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "width": 40,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 18,
+            }
+          }
+        >
+          🔔
+        </Text>
+        <View
+          style={
+            {
+              "backgroundColor": "#006970",
+              "borderRadius": 4,
+              "height": 8,
+              "position": "absolute",
+              "right": 8,
+              "top": 8,
+              "width": 8,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingBottom": 120,
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "backgroundColor": "#006970",
+            "borderRadius": 24,
+            "marginBottom": 24,
+            "padding": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255,255,255,0.7)",
+              "fontSize": 10,
+              "fontWeight": "700",
+              "letterSpacing": 2,
+              "textTransform": "uppercase",
+            }
+          }
+        >
+          Total Balance
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontSize": 36,
+              "fontWeight": "800",
+              "marginTop": 4,
+            }
+          }
+        >
+          RM12,450.00
+        </Text>
+        <View
+          style={
+            {
+              "marginTop": 24,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "rgba(255,255,255,0.8)",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "textTransform": "uppercase",
+                }
+              }
+            >
+              Monthly Limit
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "rgba(255,255,255,0.8)",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "textTransform": "uppercase",
+                }
+              }
+            >
+              65%
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "backgroundColor": "rgba(255,255,255,0.2)",
+                "borderRadius": 3,
+                "height": 6,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 3,
+                  "height": "100%",
+                  "width": "65%",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 12,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#1A1C1E",
+              "fontSize": 18,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Latest Transactions
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#006970",
+              "fontSize": 14,
+              "fontWeight": "700",
+            }
+          }
+        >
+          See All
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="transaction-TXN001"
+      >
+        <Text>
+          Coffee Shop
+        </Text>
+        <Text>
+          -50.75
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="transaction-TXN002"
+      >
+        <Text>
+          Grocery Store
+        </Text>
+        <Text>
+          -120.5
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;

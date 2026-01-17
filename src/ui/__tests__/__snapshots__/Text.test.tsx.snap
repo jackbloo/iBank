@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text matches snapshot with simple text 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontFamily": "MockedFont-Regular",
+      },
+      undefined,
+    ]
+  }
+>
+  Simple Text
+</Text>
+`;
+
+exports[`Text matches snapshot with styled text 1`] = `
+<Text
+  style={
+    {
+      "color": "red",
+      "fontSize": 18,
+    }
+  }
+>
+  Styled Text
+</Text>
+`;

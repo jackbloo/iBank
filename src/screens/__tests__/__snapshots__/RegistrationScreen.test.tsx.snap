@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterScreen matches snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 56,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 28,
+            "fontWeight": "400",
+          }
+        }
+      >
+        ‹
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "fontSize": 17,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Create Account
+    </Text>
+    <View
+      style={
+        {
+          "width": 32,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+        "paddingHorizontal": 32,
+        "paddingTop": 32,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 34,
+          "fontWeight": "800",
+          "marginBottom": 12,
+        }
+      }
+    >
+      Get Started
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "marginBottom": 32,
+          "maxWidth": 280,
+        }
+      }
+    >
+      Experience the future of personal banking with our minimalist tools.
+    </Text>
+    <View>
+      <Text>
+        Full Name
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter your full name"
+        testID="input-full-name"
+        value=""
+      />
+    </View>
+    <View>
+      <Text>
+        Email Address
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="name@example.com"
+        testID="input-email-address"
+        value=""
+      />
+    </View>
+    <View>
+      <Text>
+        Password
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Min. 8 characters"
+        secureTextEntry={true}
+        testID="input-password"
+        value=""
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginBottom": 8,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="checkbox-terms"
+      />
+      <Text
+        style={
+          {
+            "color": "#9CA3AF",
+            "flex": 1,
+            "fontSize": 12,
+            "lineHeight": 18,
+            "marginLeft": 8,
+          }
+        }
+      >
+        I agree to the 
+        <Text
+          style={
+            {
+              "color": "#111827",
+              "fontWeight": "500",
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          Terms of Service
+        </Text>
+         and
+         
+        <Text
+          style={
+            {
+              "color": "#111827",
+              "fontWeight": "500",
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          Privacy Policy
+        </Text>
+        .
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="button-register"
+    >
+      <Text>
+        Register
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 15,
+          "marginTop": 24,
+          "textAlign": "center",
+        }
+      }
+    >
+      Already have an account?
+      <Text
+        onPress={[Function]}
+        style={
+          {
+            "color": "#111827",
+            "fontWeight": "600",
+          }
+        }
+      >
+         
+        Log In
+      </Text>
+    </Text>
+  </View>
+</RNCSafeAreaView>
+`;

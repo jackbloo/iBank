@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput matches snapshot with error 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 20,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#94A3B8",
+        "fontSize": 11,
+        "fontWeight": "700",
+        "letterSpacing": 1,
+        "marginBottom": 6,
+        "textTransform": "uppercase",
+      }
+    }
+  >
+    Email
+  </Text>
+  <TextInput
+    onChangeText={[MockFunction]}
+    placeholderTextColor="#CBD5E1"
+    style={
+      [
+        {
+          "backgroundColor": "#F8FAFB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "fontSize": 16,
+          "height": 56,
+          "paddingHorizontal": 16,
+        },
+        {
+          "borderColor": "#EF4444",
+        },
+      ]
+    }
+    value="invalid"
+  />
+  <Text
+    style={
+      {
+        "color": "#EF4444",
+        "fontSize": 12,
+        "marginTop": 6,
+      }
+    }
+  >
+    Invalid email
+  </Text>
+</View>
+`;
+
+exports[`FormInput matches snapshot without error 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 20,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#94A3B8",
+        "fontSize": 11,
+        "fontWeight": "700",
+        "letterSpacing": 1,
+        "marginBottom": 6,
+        "textTransform": "uppercase",
+      }
+    }
+  >
+    Email
+  </Text>
+  <TextInput
+    onChangeText={[MockFunction]}
+    placeholderTextColor="#CBD5E1"
+    style={
+      [
+        {
+          "backgroundColor": "#F8FAFB",
+          "borderColor": "#E2E8F0",
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "fontSize": 16,
+          "height": 56,
+          "paddingHorizontal": 16,
+        },
+        null,
+      ]
+    }
+    value="test@example.com"
+  />
+</View>
+`;

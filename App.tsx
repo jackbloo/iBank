@@ -4,7 +4,6 @@ import { RootNavigator } from './src/navigation/RootNavigator'
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark'
-  console.log('App render')
 
   return (
     <SafeAreaView style={styles.safe}>
