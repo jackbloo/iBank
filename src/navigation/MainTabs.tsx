@@ -20,17 +20,28 @@ export function MainTabs() {
   return (
     <Tab.Navigator screenOptions={{ headerShown: false }}>
       <Tab.Screen name="Financing" component={FinancingStack} options={{
-    tabBarButton: ({onPress}) => (
-      <TouchableOpacity
-      onPress={onPress}
-      ><View style={style.container}>
-        <View>
-            <Feather name="credit-card" color="grey" size={20} />
+  tabBarButton: (props) => {
+    const focused = props?.['aria-selected'] ?? false
+    return (
+      <TouchableOpacity onPress={props.onPress}>
+        <View style={style.container}>
+          <Feather
+            name="credit-card"
+            size={20}
+            color={focused ? '#006970' : 'grey'}
+          />
+          <Text
+            style={[
+              { color: focused ? '#006970' : 'grey' },
+            ]}
+          >
+            Financing
+          </Text>
         </View>
-        <Text>Financing</Text>
-        </View></TouchableOpacity>
-    ),
-         }}   />
+      </TouchableOpacity>
+    )
+  },
+}}   />
       <Tab.Screen name="History" component={HistoryScreen}   options={{
     tabBarButton: () => (
       <TouchableOpacity
@@ -58,17 +69,28 @@ export function MainTabs() {
     ),
   }} />
       <Tab.Screen name="Profile" component={ProfileScreen}  options={{
-    tabBarButton: ({onPress}) => (
-      <TouchableOpacity
-      onPress={onPress}
-      ><View style={style.container}>
-        <View>
-            <Feather name="user" color="grey" size={20} />
+  tabBarButton: (props) => {
+    const focused = props?.['aria-selected'] ?? false
+    return (
+      <TouchableOpacity onPress={props.onPress}>
+        <View style={style.container}>
+          <Feather
+            name="user"
+            size={20}
+            color={focused ? '#006970' : 'grey'}
+          />
+          <Text
+            style={[
+              { color: focused ? '#006970' : 'grey' },
+            ]}
+          >
+            Profile
+          </Text>
         </View>
-        <Text>Profile</Text>
-        </View></TouchableOpacity>
-    ),
-         }}  />
+      </TouchableOpacity>
+    )
+  },
+}}   />
     </Tab.Navigator>
   )
 }

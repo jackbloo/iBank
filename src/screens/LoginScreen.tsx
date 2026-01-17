@@ -43,9 +43,9 @@ const handleLogin = () => {
 
   if (!result.success) {
     if (result.error?.toLowerCase().includes('email')) {
-      setErrors({ email: result.error })
+      setErrors({ general: result.error })
     } else if (result.error?.toLowerCase().includes('password')) {
-      setErrors({ password: result.error })
+      setErrors({ general: result.error })
     } else {
       setErrors({ general: result.error })
     }
@@ -69,7 +69,6 @@ const handleLogin = () => {
           placeholder="name@example.com"
           value={login.email}
           onChangeText={(text) => setLoginField('email', text)}
-          error={errors.email}
         />
 
         <FormInput
@@ -78,10 +77,16 @@ const handleLogin = () => {
           secureTextEntry
           value={login.password}
           onChangeText={(text) => setLoginField('password', text)}
-          error={errors.password}
         />
 
         <Button title="Sign In" onPress={handleLogin} />
+        {errors.general ? (
+        <View style={{ alignItems: 'center', marginTop: 10 }}>
+        <Text style={{ color: '#EF4444', fontSize: 13, marginBottom: 12 }}>
+            {errors.general}
+        </Text>
+        </View>
+        ) : null}
       </View>
 
       <Text style={styles.footer}>

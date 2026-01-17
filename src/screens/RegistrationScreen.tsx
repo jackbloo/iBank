@@ -48,7 +48,7 @@ const handleRegister = () => {
   if (!register.acceptedTerms) {
     newErrors.terms = 'You must accept the terms'
   }
-  console.log(newErrors, 'newErrors')
+  
   if (Object.keys(newErrors).length > 0) {
     setErrors(newErrors)
     return
